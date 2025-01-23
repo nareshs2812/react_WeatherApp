@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1561471026-0bbb77535d25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  color: #ffffff; 
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #00d4ff; 
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.search-bar .search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00d4ff;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar .search-button:hover {
+  background-color: #007ea7;
+}
+
+.error {
+  color: #ff6b6b;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.weather-container {
+  background-color: #1e1e1e; 
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.weather-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00d4ff;
+}
+
+.weather-container .temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}
+
+.weather-details strong {
+  color: #00d4ff;
+}
